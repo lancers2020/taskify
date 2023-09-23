@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body{
+    background-color: rgb(255, 231, 231);
+}
+.App{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.heading{
+    display: block;
+    background-color: rgb(255, 148, 148);
+    /* width: 100%; */
+    padding: 10px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.input-wrapper{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+}
+.input-wrapper>button{
+    position: absolute;
+    right: 10%;
+    top: 4px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    border: none;
+    background-color: rgb(212, 212, 212);
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid white;
+}
+input:hover{
+    border: 2px solid rgb(255, 148, 148);
+}
+input:focus{
+    border: 2px solid rgb(70, 0, 0);
+}
+.todo-items-container{
+    margin-top: 20px;
+}
+.todo-items{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.todo-items:hover{
+    cursor: url("C:\Users\dlimu\Desktop\internship\practice-projects\taskify\public\images\icons8-x-48.png") 10 10, auto;
+}
