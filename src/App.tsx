@@ -22,7 +22,7 @@ const App: React.FC = () => {
       setTodoList(prev=> [...prev, {id: Date.now(), text: todo, color: randomColor}]);
       setTodo("");
     }else{
-      setTodo(''); //try changing this to double quotation marks as in "", you'll see then that it won't work. the input field does not get cleared
+      setTodo(''); //try changing this to double quotation marks as in "", you'll see then that it won't work. the input field does not get cleared...
       return;
     }
   }
